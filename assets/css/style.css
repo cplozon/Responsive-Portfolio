@@ -52,6 +52,7 @@ h3 {
 			line-height: 500%;
 }
 
+
 .imagecontainer {
 			clear: both;
 			width: 1060px;
@@ -198,3 +199,205 @@ input[type=submit]:hover {
     background-color: #ffffff;
     padding: 20px;
 }
+
+/*media query*/
+
+@media screen and (max-width: 980px) {
+
+.container {
+			width: 100%;
+		}
+
+.headingcontainer {
+			width: 765px;
+			margin: 0 auto 0 auto;
+			text-align: right;	
+}
+
+.imagecontainer {
+			clear: both;
+			width: 960px;
+			height:890px;
+			padding-top: 30px;
+			padding-left: 75px;	
+ }
+
+.aboutmecontainer {
+			width: 415px;
+			height: 820px;		
+}
+
+.linebox { 
+			width: 365px;
+			height: 780px;
+			padding: 5px;	
+}
+
+#runnerimage {
+			clear:both;
+			padding-top: 30px;
+			padding-bottom: 20px;
+			width: 365px;
+			height: 280px;
+			margin-right: 10px;	
+}
+
+.connectwithmecontainer {
+			width: 240px;
+			height: 190px;
+			margin-left: 50px;	
+			float: left;	
+}
+
+.lineboxconnect {
+		clear: both;
+		width: 200px;
+		height: 180px;
+		
+}
+
+.footer {
+		  width: 100%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.container {
+			width: 100%;
+		}
+
+.headingcontainer {
+			width: 700px;
+			margin: 0 auto 0 auto;
+			text-align: right;	
+}
+
+.imagecontainer {
+			width: 768px;
+			height:800px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			padding-left: 10px;	
+			padding-right: 10px;
+ }
+
+.aboutmecontainer {
+			width: 700px;
+			height: 430px;	
+			margin-bottom: 20px;	
+}
+
+.linebox { 
+			width: 670px;
+			height: 400px;
+			padding: 5px;	
+}
+
+#runnerimage {
+			padding-top: 20px;
+			padding-bottom: 20px;
+			width: 200px;
+			height: 200px;
+			margin-right: 5px;	
+}
+
+.connectwithmecontainer {
+			width: 700px;
+			height: 190px;
+			margin-top: 15px;
+			margin-left: 0px;
+			text-align: left;		
+}
+
+.lineboxconnect {
+			width: 670px;
+			height: 180px;	
+}
+
+.footer {
+		  width: 100%;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+.container {
+			width: 100%;
+		}
+
+.headingcontainer {
+			width: 600px;
+			margin: 0 auto 0 auto;
+			text-align: right;	
+}
+
+.namecontainer {
+
+			width: 100%;
+			height: 80px;
+			background-color: #4aaaa5;
+			text-align: center;
+			color: white;
+}
+
+.navcontainer {
+			width: 100%;
+			text-align: center;
+			line-height: 300%;
+}
+
+.imagecontainer {
+			width: 640px;
+			height:1000px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			padding-left: 10px;	
+			padding-right: 10px;
+ }
+
+.aboutmecontainer {
+			width: 600px;
+			height: 720px;	
+			margin-bottom: 20px;	
+}
+
+.linebox { 
+			width: 550px;
+			height: 700px;
+			padding: 10px;	
+}
+
+#runnerimage {
+			padding-top: 20px;
+			padding-bottom: 10px;
+			padding-left: 10px
+			padding-right: 10px;
+			width: 540px;
+			height: 300px;
+			margin-right: 5px;	
+}
+
+.connectwithmecontainer {
+			width: 600px;
+			height: 190px;
+			margin-left: 0px;
+			margin-top: 15px;
+			text-align: left;		
+}
+
+.lineboxconnect {
+			width: 550px;
+			height: 180px;	
+}
+
+.footer {
+		  width: 100%;
+}
+
+}
+
+
+
